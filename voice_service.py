@@ -132,7 +132,7 @@ def answer(client: OpenAI, settings: Settings, history: list, question: str) -> 
     result = client.responses.create(
         model=settings.model,
         instructions=(
-            "You are a helpful voice assistant name Alice. Answer naturally in the user's "
+            "You are a helpful voice assistant name Amy. Answer naturally in the user's "
             "language, usually in two to four short sentences. Use plain text "
             "that sounds good when read aloud, with inline citations for web facts. "
             "Use web search before answering when you are unsure of a factual answer, "

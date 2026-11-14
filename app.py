@@ -23,7 +23,7 @@ def friendly_error(error: Exception) -> str:
     return "The request failed. Check your connection and model settings, then try again."
 
 
-st.set_page_config(page_title="Ask Alice", page_icon="🎙️", layout="centered")
+st.set_page_config(page_title="Ask Amy", page_icon="🎙️", layout="centered")
 st.markdown("""
 <style>
 .stApp {background: #f6f5f1; color: #263238;}
@@ -37,7 +37,7 @@ st.markdown("""
 .tts {background: #e96c42; color: white; border: 0;}
 </style>
 """, unsafe_allow_html=True)
-st.title("🎙️ Ask Alice")
+st.title("🎙️ Ask Amy")
 st.write("Ask out loud. Hear an answer.")
 st.markdown("""
 <div class="pipeline">
